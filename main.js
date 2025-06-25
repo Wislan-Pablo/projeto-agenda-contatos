@@ -68,7 +68,7 @@ formulario.addEventListener('submit', function (e) {
         setTimeout(() => {
             divRetornoMensagem.classList.remove('msg-return-success-action');
             divRetornoMensagem.innerHTML = '';
-        }, 3000);
+        }, 5000);
     }
 
     btnAlterar.addEventListener('click', function () {
